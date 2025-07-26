@@ -15,9 +15,9 @@ The directory structure is self-explanatory.
 If there are any deviations from the above, the README file for each pedal points that out.
 
 >[!IMPORTANT]
->All Cleveland Music Co. logos and trademarks have been removed from these source files. The artwork we use for our commercial products is also omitted. This is conventient as it provides a clean starting point for modification, but it also helps to avoid potential branding conflicts or confusion. 
+>All Cleveland Music Co. logos and trademarks have been removed from these source files. The artwork we use for our commercial products is also omitted. This is conventient because it creates a clean starting point for modification, but it also helps to avoid potential branding conflicts or confusion. 
 >
->TL;DR: **USE OF CLEVELAND MUSIC CO. TRADEMARKS, LOGOS, OR BRANDING ON ANY HARDWARE, SOFTWARE, OR DOCUMENTATION (INCLUDING DESIGN FILES) DERIVED FROM THESE MATERIALS WITHOUT EXPRESS CONSENT FROM CLEVELAND MUSIC CO. IS NOT PERMITTED.**
+>Use of Cleveland Music Co. trademarks, logos, or other branding on any hardware, software, or documentation (including design files) derived from these materials without express written consent from Cleveland Music Co. is not permitted. 
 
 ### `eagle` directory files
 
@@ -25,7 +25,7 @@ The `.sch` and `.brd` (schematic and board) files are included. Additionally, th
 
 **The PCB layouts mostly use SMD components, with a few exceptions:** As a rule of thumb, aluminum electrolytic capacitors used for power filtering are through-hole, as are potentiometers, LEDs, switches, and trimmers. Some designs include through-hole pads for silver mica "tone capacitors" or similiar. This is pointed out in each pedal's README file and component suggestions are provided.
 
-<img width="1469" height="522" alt="superior-design" src="https://github.com/user-attachments/assets/db2d9888-23b9-46b4-9465-0cdb986911c2" />
+![Superior PCB loaded in Eagle](superior/eagle/superior-no-branding_pcb-design.png)
 
 _The Superior Overdrive `.brd` file loaded in Eagle. Note the Cleveland Music Co. branding and trademarks have been removed from the source files._
 
@@ -42,7 +42,7 @@ The BOMs follow a few general guidelines:
 
 <img width="1421" height="604" alt="superior-fab-tilt" src="https://github.com/user-attachments/assets/65f20d46-1bf6-4561-bd96-d2c82cdcbe58" />
 
-_Rendering of a Superior Overdrive PCB fabricated with these files. Note the Cleveland Music Co. branding and trademarks have been removed from the source files._
+_Rendering of a Cleveland Music Co. Superior Overdrive PCB fabricated with these files. Note the Cleveland Music Co. branding and trademarks have been removed from the source files._
 
 There is also a `.url` file with a link to the Drill Template at Tayda. These templates have been verified and tested. For example, [here is the Superior Overdrive Drill Template](https://drill.taydakits.com/box-designs/new?public_key=SVhxKzdDNXZjeXVUNXpSM1phNTFkdz09Cg==).
 

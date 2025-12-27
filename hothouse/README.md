@@ -43,7 +43,7 @@ All commercial branding has been removed from the PCBs in this repository.
 
 ## Bill Of Materials
 
-[BOM.xls](fabrication/BOM.xls) specifies the surface-mount components.
+[BOM.xls](fabrication/BOM.xls) specifies the surface-mount components. It is adapted from a late-2025 fabrication run used in the commercial kits. "Adapted" because some of the parts I use aren't always in stock at JLCPCB; some components have been swapped out here for purposes of availability.
 
 Budget-friendly through-hole components to complete the build and some sourcing suggestions:
 
@@ -62,7 +62,7 @@ Budget-friendly through-hole components to complete the build and some sourcing 
 | 1 | [Tayda SKU: A-5165-CST-UV1](https://www.taydaelectronics.com/125b-uv-printing-service.html) | 125B ENCLOSURE FACE UV PRINTING SERVICE | Optional |
 | 1 | [Stompbox Parts SKU: RIB-6P-1](https://stompboxparts.com/cables-wire-plugs/ribbon-cable-6-pin-1-prebond/) | Ribbon Cable - 6 pin - 1" - Prebond | _Prebond_ is important! |
 | 1 | [Stompbox Parts SKU: RIB-6P-2](https://stompboxparts.com/cables-wire-plugs/ribbon-cable-6-pin-2-prebond/) | Ribbon Cable - 6 pin - 2" - Prebond | _Prebond_ is important! |
-| 2 | [Mouser PN: 568-NRJ6HM1](https://www.mouser.com/ProductDetail/568-NRJ6HM1)| Neutrik NRJ6HM-1 1/4" Stereo Audio Connector | [Tayda SKU: A-6446](https://www.taydaelectronics.com/6-35mm-1-4-stereo-insulated-switched-cylindrical-socket-jack-pcb-pins.html) also works in a pinch |
+| 2 | [Mouser PN: 568-NRJ6HM1](https://www.mouser.com/ProductDetail/568-NRJ6HM1)| Neutrik NRJ6HM-1 1/4" Stereo Audio Connector | [Tayda SKU: A-6446](https://www.taydaelectronics.com/6-35mm-1-4-stereo-insulated-switched-cylindrical-socket-jack-pcb-pins.html) also works in a pinch; but the Neutrik part is recommended |
 | 2 | [Mouser PN: 568-NRJ6HM1](https://www.mouser.com/ProductDetail/568-NRJ-NUT-MN)| Neutrik NRJ-NUT-MN Mounting Nut for NRJ6HM-1 | |
 | 1 | [Mouser PN: 667-EEU-FR1E101B](https://www.mouser.com/ProductDetail/667-EEU-FR1E101B)| Panasonic EEU-FR1E101B Aluminum Electrolytic Capacitors - Radial Leaded 25VDC 100uF 6.3x11.2mm LS 5.0mm | Use whatever low-ESR capacitor you prefer |
 

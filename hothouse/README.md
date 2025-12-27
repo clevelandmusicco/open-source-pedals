@@ -17,6 +17,18 @@ The Hothouse design is comprised of three PCBs:
 2. A Switching & LED daughterboard,
 3. A Power & Audio I/O daughterboard.
 
+<img width="777" height="735" alt="hothouse-main-pcb" src="https://github.com/user-attachments/assets/b5803595-6ba8-4069-90f4-6c0f93129d8f" />  
+
+_The Main PCB_
+
+<img width="753" height="327" alt="hothouse-switching-pcb" src="https://github.com/user-attachments/assets/63a6cf0d-6b2d-43e2-865a-e12a12d27876" />  
+
+_The Switching & LED Daughterboard_
+
+<img width="679" height="327" alt="hothouse-io-pcb" src="https://github.com/user-attachments/assets/dca83c48-911c-4e4a-9941-9cd11f6b637e" />   
+
+_The Power & Audio I/O Daughterboard_
+
 The main PCB is designed for a mix of through-hole and surface-mount components, while the two daughterboards use only through-hole components. The three PCBs are connected by 6-pin ribbon cables. Refer to [the commercial product build docs](https://github.com/clevelandmusicco/HothouseExamples/wiki/Cleveland-Music-Co.-Hothouse-DIY-Digital-Signal-Processing-Pedal-Kit-Build-Guide-(Stereo-Version)) for more information.
 
 All commercial branding has been removed from the PCBs in this repository.

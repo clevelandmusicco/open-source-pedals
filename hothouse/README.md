@@ -1,18 +1,19 @@
 # Hothouse DSP Pedal Kit
 
 >[!IMPORTANT]
-> Remember that all of these materials are made available as [Open Source Hardware](https://oshwa.org/resources/open-source-hardware-definition/) distributed under a [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). Before using these materials, be sure to follow the links above and read the [main repo README](/README.md) and [LICENSE](/LICENSE).
+> Remember that all of these materials are made available as [Open Source Hardware](https://oshwa.org/resources/open-source-hardware-definition/) distributed under a [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/). Before using these materials, be sure to follow the links above and read the [main repo README](/README.md) and [LICENSE](/LICENSE) files.
 
 The Hothouse is a compact pedal kit for the [Electrosmith Daisy Seed](https://electro-smith.com/products/daisy-seed). You can use it to easily get your Daisy Seed DSP projects off the breadboard and onto your pedalboard, either by compiling and flashing any of the code in [the official repository](https://github.com/clevelandmusicco/HothouseExamples), or by using the [Daisy Web Programmer](https://electro-smith.github.io/Programmer/) with the [pre-compiled binaries](https://github.com/clevelandmusicco/HothouseExamples/releases). And of course, you can also [write your own DSP code for the Hothouse](https://github.com/clevelandmusicco/HothouseExamples/wiki/Creating-your-own-effects). Basically, anything that runs on the Daisy Seed will run on the Hothouse.
 
 This directory contains the open source hardware files for the [Cleveland Music Co. Hothouse DSP Pedal Kit](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/). Included are the required gerber, BOM, and CPL files required to fabricate your own PCBs at JLCPCB. Also included are suggestions for the various through-hole components and other hardware required.
 
 >[!NOTE]
-> No step-by-step tutorial for having the boards fabricated is provided. It's assumed that anyone interested in using these files is already familiar with the fabrication process.
+> No step-by-step tutorial for having the boards fabricated is provided. It's assumed that anyone interested in using these files is already familiar with the fabrication process at their provider of choice. However, the files in this repo have only been tested with JLCPCB.
 
 ## Overview
 
 The Hothouse design is comprised of three PCBs:
+
 1. The Main PCB,
 2. A Switching & LED daughterboard,
 3. A Power & Audio I/O daughterboard.
@@ -32,6 +33,20 @@ _The Power & Audio I/O Daughterboard_
 The main PCB is designed for a mix of through-hole and surface-mount components, while the two daughterboards use only through-hole components. The three PCBs are connected by 6-pin ribbon cables. Refer to [the commercial product build docs](https://github.com/clevelandmusicco/HothouseExamples/wiki/Cleveland-Music-Co.-Hothouse-DIY-Digital-Signal-Processing-Pedal-Kit-Build-Guide-(Stereo-Version)) for more information.
 
 All commercial branding has been removed from the PCBs in this repository.
+
+### eagle Directory
+
+For each of the three boards, you will find three files:
+
+* An Eagle schematic (`.sch`)
+* An Eagle board (`.brd`)
+* An Eagle library (`.lbr`) for the devices and footprints specific to the board
+
+All the files were created with Eagle 9.6.2 "free". Having separate files for each board provides flexibility; not everyone will want to modify or fab all three PCBs.
+
+### fabrication Directory
+
+There is a zip of the gerber files for each board following the same naming convention as the `eagle` directory. A `BOM.xls` and `CPL.xls` is provided for use with `hothouse-no-branding.zip`. You'll also find a DIY drill template for those wanting to drill their own 125B enclosures.
 
 ## Resources
 

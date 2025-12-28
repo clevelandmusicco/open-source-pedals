@@ -36,11 +36,12 @@ All commercial branding has been removed from the PCBs in this repository.
 
 ### eagle Directory
 
-For each of the three boards, you will find three files:
+For each of the three boards, you will find four files:
 
 * An Eagle schematic (`.sch`)
 * An Eagle board (`.brd`)
 * An Eagle library (`.lbr`) for the devices and footprints specific to the board
+* A PDF schematic
 
 All the files were created with Eagle 9.6.2 "free". Having separate files for each board provides flexibility; not everyone will want to modify or fab all three PCBs.
 
@@ -52,13 +53,12 @@ There is a zip of the gerber files for each board following the same naming conv
 
 * The commercial Cleveland Music Co. Hothouse product based on these files can be found [here](https://clevelandmusicco.com/hothouse-diy-digital-signal-processing-platform-kit/).
 * The build documentation for the commercial product is [here](https://github.com/clevelandmusicco/HothouseExamples/wiki/Cleveland-Music-Co.-Hothouse-DIY-Digital-Signal-Processing-Pedal-Kit-Build-Guide-(Stereo-Version)).
-* Non-CAD schematics are [here](https://github.com/clevelandmusicco/HothouseExamples/wiki/Frequently-Asked-Questions#schematics). (Handy if you don't have Eagle or KiCad.)
 * A DIY 125B enclosure drill template is included in [drill-template.pdf](fabrication/hothouse-drill-template.pdf). It assumes you assemble everything according to the build docs for proper fit.
 * For custom-machined enclosures from Tayda, a 125B drill template is [here](https://drill.taydakits.com/box-designs/new?public_key=Q2luT1FRTVZRM3Bab01YbXd3eituUT09Cg==).
 
 ## Bill Of Materials
 
-[BOM.xls](fabrication/BOM.xls) specifies the surface-mount components. It is adapted from a late-2025 fabrication run used in the commercial kits. "Adapted" because some of the parts I use aren't always in stock at JLCPCB; some components have been swapped out here for purposes of availability.
+[BOM.xls](fabrication/BOM.xls) specifies the surface-mount components. It is adapted from a late-2025 fabrication run used in the commercial kits. "Adapted" because some of the parts I use aren't always in stock at JLCPCB publicly (I stock them in my personal parts library); several components have been swapped out here for purposes of general availability.
 
 Budget-friendly through-hole components to complete the build and some sourcing suggestions:
 

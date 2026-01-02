@@ -10,7 +10,7 @@ The Big Muff is famous for its many different variants over the years, each havi
 
 The canonical source for Big Muff schematics has to be [Kit Rae's Big Muff Page](https://www.kitrae.net/music/music_big_muff.html). Here you can find a schematic for every known variant of the Big Muff circuit with consistent part identifiers and notes about capacitor dialectrics, transistors, etc.
 
-To make it easy to fab different variants, I have used the same identifiers Kit uses on his website. The schematic in the `eagle` directory is from [the David Gilmour Big Muff](https://www.kitrae.net/music/David_Gilmour_Big_Muff.html) (which Kit calls "Version 2 Big Muff 1973 #3), and `BOM_gilmour.csv` specifies JLC part numbers that match this schematic. If you want to make a different variant, simply create a new BOM selecting parts that match the schematic you want to make.
+To make it easy to fab different variants, I have used the same identifiers Kit uses on his website. The schematic in the `eagle` directory is from [the David Gilmour Big Muff](https://www.kitrae.net/music/David_Gilmour_Big_Muff.html) (which Kit calls "Version 2 Big Muff 1973 #3"), and `BOM_gilmour.csv` specifies JLC part numbers that match this schematic. It sounds really, really good. If you want to make a different variant, simply create a new BOM selecting parts that match the schematic of you choice.
 
 ![](https://github.com/user-attachments/assets/5cde1331-ead2-4fbc-a757-d9ffb0cb5470)
 
@@ -19,9 +19,9 @@ To make it easy to fab different variants, I have used the same identifiers Kit 
 `BOM_gilmour.csv` specifies fairly low-hFE [MMBT3904 transistors](https://jlcpcb.com/partdetail/21237-MMBT3904_RANGE_100_300/C20526). I think they sound great in this variant, but hFE on Big Muff transistors varies wildly. Do some reading at Kit's page and tweak as you see fit.
 
 >[!NOTE]
-> I'll probably add more BOMs in the future. Pull requests are also welcome! The only reason I haven't added more BOMs already is that most of mine use parts that aren't in the public JLC Parts Library ¯\\_(ツ)_/¯
+> I'll add more BOMs in the future; especially the variants that are most often cloned. Pull requests are also welcome! The only reason I haven't added more already is that most of mine use parts that aren't in the public JLC Parts Library ¯\\_(ツ)_/¯
 
-You may occasionally need to change a capacitor footprint to use the part number you want (C8 is probably the leading candidate here; I happen to have a large number of C0G 0603 caps in my personal parts library). The largest footprint in `the-why.lbr` is 1206; there's plenty of space on the board to make all capacitors 1206 if you wanted to. You won't even need to change the CPL coordinates if you're careful.
+You may occasionally need to change a capacitor footprint to use the part number you want (the 0603 C8 is probably the leading candidate here; I happen to have a large number of C0G 0603 caps in my personal parts library). The largest footprint in `the-why.lbr` is 1206; there's plenty of space on the board to make all capacitors 1206 if you wanted to. You won't even need to change the CPL coordinates if you're careful.
 
 ## Through-hole Component Suggestions
 
